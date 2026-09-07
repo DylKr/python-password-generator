@@ -36,9 +36,7 @@ def main():
         characters = string.digits
 
     password = service + ''.join(random.choice(characters) for _ in range(size))
-    
-    print(f"Strength: {strength}")
-    print(f"Size: {size}")  
+
     print(f"Your password is: {password}")
 
 if __name__ == "__main__": 
